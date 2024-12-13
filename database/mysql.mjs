@@ -6,7 +6,7 @@ const conexao = new Sequelize({
     database: 'banco_claudio',
     username: 'banco_claudio_user',
     password: 'jhXZY4UvCYsRD8GbFtpq60IdI1bE3z7x',
-    dialect: 'postgree'
+    dialect: 'postgres'
 });
 
 export default conexao;
